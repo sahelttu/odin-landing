@@ -1,14 +1,30 @@
 body{
     font-family: 'Roboto';
     background-color: #1f2937;
-    height: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
 
 .header{
     display: flex;
     justify-content: space-around;
     height: 100px;
-    margin: 0 10%;
+    margin: 0 5%;
     padding-top: 18px;
 }
 
@@ -16,6 +32,8 @@ body{
 .header-links{
     display: flex;
     gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -23,6 +41,7 @@ body{
 
 .header-logo{
     font-size: 24px;
+    color: #F9FAF8;
     font-weight: 700;
 }
 
@@ -30,28 +49,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
-    margin: 30px 0;
+    gap: 150px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.div-intro p{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .intro-text{
-    width: 30%;
-}
-
-h1{
-    font-weight: 800;
-    font-size: 48px;
+    width: 25%;
 }
 
 .intro-image{
     width: 400px;
+    height: 250px;
     border-radius: 10px;
 }
 
 .intro-button{
-    width: 120px;
-    height: 30px;
-    border-radius: 5px;
+    width: 125px;
+    height: 35px;
+    border-radius: 7px;
+    border-style: none;
     background-color: #3882f6;
     color: white;
     font-size: 18px;
@@ -60,5 +82,42 @@ h1{
 
 .div-info{
     background-color: white;
-    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cards{
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    max-width: 180px;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.div-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text{
+    max-width: 50%;
+    margin: 0;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-signature{
+    font-size: 18px;
 }
