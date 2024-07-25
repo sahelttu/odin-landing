@@ -22,6 +22,7 @@ h2{
 
 h3{
     margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .header{
@@ -91,7 +92,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 64px 0;
+    padding: 24px 0 64px 0;
 }
 
 .info-cards{
@@ -114,7 +115,7 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 64px 0;
+    padding: 84px 0;
 }
 
 .quote-text{
@@ -137,7 +138,7 @@ h3{
     align-items: center;
     justify-content: center;
     margin: 0;
-    padding: 18px;
+    padding: 84px 0;
 }
 
 .cta{
@@ -146,16 +147,26 @@ h3{
     justify-content: center;
     gap: 120px;
     background-color: #3882f6;
-    padding: 12px;
-    width: 1000px;
+    padding: 40px;
+    width: 900px;
+    border-radius: 8px;
 }
 
 .cta-text{
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    color: white;
 }
 
 .cta-button{
     height: 50%;
+    width: 125px;
+    background-color: #3882f6;
+    padding: 8px 3px;
+    border: solid 2px white;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
