@@ -119,7 +119,7 @@ h3{
 }
 
 .quote-text{
-    max-width: 50%;
+    max-width: 55%;
     margin: 0;
     font-size: 36px;
     font-weight: light;
@@ -169,4 +169,13 @@ h3{
     color: white;
     font-size: 18px;
     font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    padding: 48px 0;
+    font-size: 18px;
 }
